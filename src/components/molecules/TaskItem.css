@@ -1,0 +1,29 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5em 0;
+  border-bottom: 1px solid #eee;
+  animation: fadeSlideIn 0.5s cubic-bezier(0.4,0,0.2,1);
+}
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.task-item span {
+  flex: 1;
+  font-size: 1.1em;
+  transition: color 0.3s, text-decoration-color 0.3s;
+}
+.task-item .completed {
+  color: #bdbdbd;
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #90caf9;
+} 

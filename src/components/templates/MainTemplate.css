@@ -1,0 +1,8 @@
+.main-template {
+  max-width: 480px;
+  margin: 2em auto;
+  padding: 2.5em 2em 2em 2em;
+  background: linear-gradient(120deg, #f5fafd 0%, #e3f2fd 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(25, 118, 210, 0.10);
+} 
